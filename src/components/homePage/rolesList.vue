@@ -1,6 +1,8 @@
 <template>
   <div class="long">
   <i class="wan"></i>
+  <span class="left-arrow arrow" @click="prevItem"></span>
+  <span class="right-arrow arrow" @click="nextItem"></span>
     <div class="long-box">
       <div class="box-title">
         <span class="box-title-text left">角色介绍</span>
@@ -62,6 +64,16 @@
       },
       nextIndex(roleIndex){
         this.currentIndex = roleIndex
+      },
+      nextItem () {
+        if(this.currentIndex < this.roles.length-1){
+          this.currentIndex +=1
+        }
+      },
+      prevItem () {
+        if(this.currentIndex > 0){
+          this.currentIndex -=1
+        }
       }
     }
   }
@@ -80,6 +92,25 @@
     right: 215px;
     top: 50%;
     z-index: 999;
+    }
+    .arrow{
+      position: absolute;
+      top: 50%;
+      margin-top: -24px;
+      display: block;
+      width: 28px;
+      height: 53px;
+      z-index: 1000;
+      cursor: pointer;
+
+    }
+    .left-arrow{
+      left: 20px;
+      background: url('http://game.gtimg.cn/images/dn/web201702/img/arrow_left.png') left no-repeat;
+    }
+    .right-arrow{
+      right: 20px;
+      background: url('http://game.gtimg.cn/images/dn/web201702/img/arrow_right.png') left no-repeat;
     }
   }
   .long-box{
