@@ -1,0 +1,195 @@
+{
+    "roles": [
+        {
+            "name": "战士",
+            "sub": "Warrior",
+            "on_icon_url": "/static/img/long/i_zhanshi_show.png",
+            "off_icon_url": "/static/img/long/i_zhanshi.png",
+            "icon_url": [
+                "/static/img/long/i_zhanshen.png",
+                "/static/img/long/i_jiansheng.png"
+            ],
+            "type": [
+                {
+                    "name": "战神",
+                    "sub": "Elemental Lord",
+                    "desc": "战士是人类中最骁勇善战的勇士，性格坚韧和骄傲。在50年前的围剿黑龙战役中，佣兵联盟的团长巴尔纳召集了疏散在各地的佣兵战士们，作为冲锋第一线的先头部队参与与黑龙的决战。",
+                    "img_url": "/static/img/long/zhanshi.png",
+                    "gif_url": "/static/img/long/zhanshen.gif"
+                },
+                {
+                    "name": "剑圣",
+                    "sub": "Sword Master",
+                    "desc": "剑圣以快速的攻击和移动见长，改善了战士敏捷较弱这一属性，再加上自身强大的力量和体质， 如果配合玩家高超的走位技巧，下副本轻轻松松就能闪电通关。",
+                    "img_url": "/static/img/long/jiansheng.png",
+                    "gif_url": "/static/img/long/jiansheng.gif"
+                }
+            ]
+        },
+        {
+            "name": "弓箭手",
+            "sub": "Archer",
+            "on_icon_url": "/static/img/long/i_gongjianshou_show.png",
+            "off_icon_url": "/static/img/long/i_gongjianshou.png",
+            "icon_url": [
+                "/static/img/long/i_jianshen.png",
+                "/static/img/long/i_youxia.png"
+            ],
+            "type": [
+                {
+                    "name": "箭神",
+                    "sub": "Bow Master",
+                    "desc": "箭神作为最强的后方伤害输出者 ，战场上令对方最为提心吊胆。超远的攻击距离再加上超高的攻击伤害，成为所有对手可怕的梦魇。只要能够时刻占据有利位置，将会成为近似无敌般的存在。",
+                    "img_url": "/static/img/long/jianshen.png",
+                    "gif_url": "/static/img/long/jianshen.gif"
+                },
+                {
+                    "name": "游侠",
+                    "sub": "Acrobat",
+                    "desc": "游侠可以说是凭借风骚走位和快速攻击在战场上寻找战机的近战型职业，近身连招流畅，进行强大的输出后瞬间撤离，掌控着整个战场的节奏。",
+                    "img_url": "/static/img/long/youxia.png",
+                    "gif_url": "/static/img/long/youxia.gif"
+                }
+            ]
+        },
+        {
+            "name": "魔法师",
+            "sub": "Magician",
+            "on_icon_url": "/static/img/long/i_mofashi_show.png",
+            "off_icon_url": "/static/img/long/i_mofashi.png",
+            "icon_url": [
+                "/static/img/long/i_yuansushi.png",
+                "/static/img/long/i_modaoshi.png"
+            ],
+            "type": [
+                {
+                    "name": "元素师",
+                    "sub": "Elemental Lord",
+                    "desc": "元素师的输出非常强势，近距离大范围的魔法成片成片的秒怪，绚丽的技能在战场上就是一道恐怖的风景线，冰火交织下分分钟狂虐对手，配合自身强大的控制技能，无伤通关成就也能信手拈来。",
+                    "img_url": "/static/img/long/yuansushi.png",
+                    "gif_url": "/static/img/long/yuansushi.gif"
+                },
+                {
+                    "name": "魔导师",
+                    "sub": "Force User",
+                    "desc": "魔导师拥有超高的群体伤害能力，技能效果震撼，配合自身的控制技能，一套连招下来就能让敌人阵脚大乱，损失惨重。对战boss也是表现亮眼，强大的输出完全弥补了自身体质较弱的差距，走位合理的情况下根本不用担心血量不足。",
+                    "img_url": "/static/img/long/modaoshi.png",
+                    "gif_url": "/static/img/long/modaoshi.gif"
+                }
+            ]
+        },
+        {
+            "name": "牧师",
+            "sub": "Minister",
+            "on_icon_url": "/static/img/long/i_mushi_show.png",
+            "off_icon_url": "/static/img/long/i_mushi.png",
+            "icon_url": [
+                "/static/img/long/i_jisi.png",
+                "/static/img/long/i_xianzhe.png"
+            ],
+            "type": [
+                {
+                    "name": "祭祀",
+                    "sub": "Priest",
+                    "desc": "祭司能够为队友提供强有力的 支援，比其他职业更强的体质，再加 上不俗的近战输出，是团战中必不可 少的伙伴。",
+                    "img_url": "/static/img/long/jisi.png",
+                    "gif_url": "/static/img/long/jisi.gif"
+                },
+                {
+                    "name": "贤者",
+                    "sub": "Paladin",
+                    "desc": "混合型输出的贤者有着超强的 防御力，一流的防守反击能力可以有 效地保护队伍中的伙伴们，是整个队 伍坚实的中流砥柱。",
+                    "img_url": "/static/img/long/xianzhe.png",
+                    "gif_url": "/static/img/long/xianzhe.gif"
+                }
+            ]
+        }
+    ],
+    "adv": [
+        {
+            "menuName": "最新",
+            "content": [
+                {
+                    "imgUrl": "http://itea-cdn.qq.com/file/tgl/20170213/QQ20170213170445meitu2.1486976580.jpg",
+                    "desc": "华东电信七区，十大不可缺少的明星玩家",
+                    "sub": "腾讯游戏玩家联盟"
+                },
+                {
+                    "imgUrl": "http://itea-cdn.qq.com/file/tgl/20170320/QQ20170320154255meitu1.1489995631.jpg",
+                    "desc": "龙基谷九种懵逼死法 冰球冰冻了我的思维",
+                    "sub": "腾讯游戏玩家联盟"
+                },
+                {
+                    "imgUrl": "http://puui.qpic.cn/qqvideo_ori/0/o038494mv6e_228_128/0",
+                    "desc": "《龙基谷套路深》第四期：萌妹与翻车选哪个？",
+                    "sub": "梵尘"
+                },
+                {
+                    "imgUrl": "http://puui.qpic.cn/qqvideo_ori/0/b0384nyczkx_228_128/0",
+                    "desc": "【混剪】 初心不老，再回基谷！",
+                    "sub": "腾讯游戏玩家联盟"
+                },
+                {
+                    "imgUrl": "http://shp.qpic.cn/qqvideo_ori/0/a0365faoua7_228_128/0",
+                    "desc": "《囧神战基谷》第一期：声优妹子的娇喘!",
+                    "sub": "梵尘"
+                },
+                {
+                    "imgUrl": "http://puui.qpic.cn/qqvideo_ori/0/g0377e6u9eu_228_128/0",
+                    "desc": "《基谷尝鲜坊》第一期：投胎再遇基谷情",
+                    "sub": "梵尘"
+                }
+            ]
+        },
+        {
+            "menuName": "涂鸦墙",
+            "content": [
+                {
+                    "imgUrl": "http://itea-cdn.qq.com/file/tgl/20170313/QQ20170313115327meitu4.1489377065.jpg",
+                    "desc": "【基谷四格】告别爆满服务器好友组队去新区",
+                    "sub": "腾讯游戏玩家联盟"
+                },
+                {
+                    "imgUrl": "http://puui.qpic.cn/qqvideo_ori/0/o038494mv6e_228_128/0",
+                    "desc": "《龙基谷套路深》第四期：萌妹与翻车选哪个？",
+                    "sub": "梵尘"
+                },
+                {
+                    "imgUrl": "http://puui.qpic.cn/qqvideo_ori/0/b0384nyczkx_228_128/0",
+                    "desc": "【混剪】 初心不老，再回基谷！",
+                    "sub": "腾讯游戏玩家联盟"
+                }
+            ]
+        },
+        {
+            "menuName": "留声机",
+            "content": [
+                {
+                    "imgUrl": "http://itea-cdn.qq.com/file/tgl/20170227/1.1488203810.jpg",
+                    "desc": "【小说】末世龙吟-第一章",
+                    "sub": "苏千墨"
+                },
+                {
+                    "imgUrl": "http://puui.qpic.cn/qqvideo_ori/0/o038494mv6e_228_128/0",
+                    "desc": "《龙基谷套路深》第四期：萌妹与翻车选哪个？",
+                    "sub": "梵尘"
+                },
+                {
+                    "imgUrl": "http://puui.qpic.cn/qqvideo_ori/0/b0384nyczkx_228_128/0",
+                    "desc": "【混剪】 初心不老，再回基谷！",
+                    "sub": "腾讯游戏玩家联盟"
+                }
+            ]
+        },
+        {
+            "menuName": "日记本",
+            "content": [
+                {
+                    "imgUrl": "http://puui.qpic.cn/qqvideo_ori/0/y0384neyovi_228_128/0",
+                    "desc": "【宅舞】一起去冒险",
+                    "sub": "腾讯玩家联盟"
+                }
+            ]
+        }
+    ]
+}
