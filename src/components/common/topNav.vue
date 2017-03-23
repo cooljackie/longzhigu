@@ -8,7 +8,7 @@
       </div>
     </div>
     <ul class="menu">
-        <li v-for="item in navItem"><a href="#">{{item}}</a></li>
+        <li v-for="item in navItem"><router-link  to="/newsActivity">{{item}}</router-link></li>
     </ul>
     <div class="gzh">
       <i class="wechat" @mouseover="weiShow" @mouseout="weiHidden"></i>

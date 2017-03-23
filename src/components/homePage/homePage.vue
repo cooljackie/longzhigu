@@ -3,6 +3,7 @@
     <div class="boxBg">
       <top-nav></top-nav>
     </div>
+    <div class="mainWrapper">
       <top-content></top-content>
       <new-activity></new-activity>
       <adventurer></adventurer>
@@ -10,6 +11,7 @@
       <game-slide></game-slide>
       <adv-and-video></adv-and-video>
       <dcfooter></dcfooter>
+    </div>
   </div>
 </template>
 
@@ -35,8 +37,11 @@ import dcfooter from '../common/dcfooter'
     background: rgb(230,230,226) url('http://game.gtimg.cn/images/dn/web201702/img/bg_foot.png') center bottom no-repeat;
     .boxBg{
       width: 100%;
-      height: 930px;
+      height: 1084px;
       background: url('http://game.gtimg.cn/images/dn/web201702/img/kv.png') top center no-repeat;
+    }
+    .mainWrapper{
+      margin-top: -150px;
     }
   }
 </style>

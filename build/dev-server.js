@@ -26,6 +26,11 @@ var data = require('../data.json')
 var roles = data.roles
 var adv = data.adv
 var tabData = data.tabData
+var hotNews = data.hotNews
+var news = data.news
+var notices = data.notices
+var activitys = data.activitys
+
 var apiRouter = express.Router();
 apiRouter.get('/roles', function(req, res){
   res.json({
@@ -43,6 +48,30 @@ apiRouter.get('/tabData', function(req, res){
   res.json({
     errno: 1,
     data: tabData
+  });
+});
+apiRouter.get('/hotNews', function(req, res){
+  res.json({
+    errno: 1,
+    data: hotNews
+  });
+});
+apiRouter.get('/news', function(req, res){
+  res.json({
+    errno: 1,
+    data: news
+  });
+});
+apiRouter.get('/notices', function(req, res){
+  res.json({
+    errno: 1,
+    data: notices
+  });
+});
+apiRouter.get('/activitys', function(req, res){
+  res.json({
+    errno: 1,
+    data: activitys
   });
 });
 app.use('/api',apiRouter);
