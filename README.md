@@ -1,6 +1,6 @@
 # longzhigu
 
-> A use vue. Js imitated shanda dragon valley website demo
+> 一个使用vue+vue-router+vuex+less仿做的盛大游戏龙之谷手游pc端管网
 
 ## Build Setup
 
@@ -19,3 +19,8 @@ npm run build --report
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## 项目整体效果
+![首页效果图](./static/md/longzhigu.png)
+
+![新闻页效果图](./static/md/longzhigunew.png)
