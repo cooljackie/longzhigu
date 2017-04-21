@@ -1,5 +1,5 @@
 <template>
-  <div class="adventurer">
+  <div class="adventurer bounceInUp animated">
     <div class="box-title">
         <span class="box-title-text left">冒险家乐园</span>
         <span class="box-title-text right">+MORE</span>

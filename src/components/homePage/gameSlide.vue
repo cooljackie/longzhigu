@@ -1,16 +1,16 @@
 <template>
-  <div class="gameSlide">
+  <div class="gameSlide fadeInUp animated">
     <div class="box-title">
       <span class="box-title-text left">游戏特色</span>
     </div>
     <div class="silideWrapper">
-        <ul class="imgBox" :style="'{width:'+1226*gameImgUrl.length+'px;'+'margin-left:'+current*-1226+'px;}'">
-          <li v-for="item in gameImgUrl">
-            <a href="#">
-              <img :src="item">
-            </a>
-          </li>
-        </ul>
+          <ul class="imgBox" :style="'width:'+1226*gameImgUrl.length+'px;'+'transform: translate('+current*-1226+'px'+', 0px);}'">
+            <li v-for="item in gameImgUrl">
+              <a href="#">
+                <img :src="item">
+              </a>
+            </li>
+          </ul>
         <ul class="btnList">
           <li class="prev" @click="prevItem">&lt</li>
           <li v-for="num in gameImgUrl.length" :class="{'current': num==current+1}" @click="SwitchImg(num)">{{num}}</li>
@@ -88,7 +88,8 @@
       position: relative;
       ul.imgBox{
         height: 418px;
-        transition: all .1 ease;
+        transition: all 500ms;
+        -webkit-transition: all 500ms;
         li{
           float: left;
           width: 1226px;
@@ -143,4 +144,7 @@
     float: right;
   }
   }
+
+
 </style>
+

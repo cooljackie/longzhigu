@@ -1,6 +1,6 @@
 <template>
   <div class="outBox">
-    <div class="newActivity">
+    <div class="newActivity bounceInUp animated">
       <div class="box-title">
         <span class="box-title-text left">最新活动</span>
       </div>
@@ -10,7 +10,7 @@
         </li>
       </ul>
     </div>
-    <div class="advSchool">
+    <div class="advSchool bounceInUp animated">
       <div class="box-title">
         <span class="box-title-text left">冒险者学院</span>
         <div class="schoolContent">

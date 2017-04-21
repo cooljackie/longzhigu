@@ -24,7 +24,6 @@
         currentIndex: 0,
         listLength: 1,
         menuItems: ['最新', '新闻', '公告', '活动'],
-
         newsListData: []
       }
     },
@@ -138,7 +137,6 @@
           height: 40px;
           width: 100%;
           margin: 10px 0;
-
           a{
             display: inline-block;
             width: 500px;

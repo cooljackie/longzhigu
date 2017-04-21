@@ -1,8 +1,8 @@
 <template>
-  <div class="tab">
+  <div id="adv" class="tab" :class="{'fadeInUp':test, 'animated':test}">
     <div class="box-title">
         <span class="box-title-text left">{{itemContent.leftTitle}}</span>
-        <span class="box-title-text right">{{itemContent.rightTitle}}</span>
+        <span class="box-title-text right" @click="move">{{itemContent.rightTitle}}</span>
       </div>
     <ul class="menuTab">
       <li v-for="(item,index) in itemContent.menuItem" :class="{'current': index==tabCurrent}" @mouseover="switchMenuItem(index)">
@@ -19,7 +19,8 @@
   export default{
     data () {
       return {
-        current: 0
+        current: 0,
+        test: true
       }
     },
     methods: {
@@ -29,6 +30,11 @@
         }else{
           this.$store.dispatch('chargeTabCurrent',index)
         }
+      },
+      move () {
+        this.test = !this.test
+        console.log(document.body.clientHeight)
+        console.log(document.getElementById('adv').scrollHeight)
       }
     },
     computed: {

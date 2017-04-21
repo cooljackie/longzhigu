@@ -8,7 +8,7 @@
       </div>
     </div>
     <ul class="menu">
-        <li v-for="item in navItem"><router-link  to="/newsActivity">{{item}}</router-link></li>
+        <li v-for="item in navItem"><router-link  :to="item.linkUrl">{{item.title}}</router-link></li>
     </ul>
     <div class="gzh">
       <i class="wechat" @mouseover="weiShow" @mouseout="weiHidden"></i>
@@ -31,7 +31,7 @@
       return {
         weichatShow: false,
         mqqShow: false,
-        navItem: ['首页', '新闻活动', '冒险家学院','冒险家乐园', '玩家论坛', 'CD-KEY兑换']
+        navItem: [{'title':'首页','linkUrl':'/'}, {'title':'新闻活动','linkUrl':'/newsActivity'}, {'title':'冒险家学院','linkUrl':'/test'},{'title':'冒险家乐园','linkUrl':'/'}, {'title':'玩家论坛','linkUrl':'/'}, {'title':'CD-KEY兑换','linkUrl':'/'}]
       }
     },
     methods: {

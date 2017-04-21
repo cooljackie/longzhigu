@@ -45,3 +45,6 @@ import dcfooter from '../common/dcfooter'
     }
   }
 </style>
+<style scoped>
+  @import '../../assets/css/animation.css'
+</style>

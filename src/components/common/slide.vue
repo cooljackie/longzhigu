@@ -1,6 +1,6 @@
 <template>
   <div class="hotSlide">
-    <ul class="imgBox" :style="'{width:'+409*gameImgUrl.length+'px;'+'margin-left:'+current*-409+'px;}'">
+    <ul class="imgBox" :style="'width:'+409*gameImgUrl.length+'px;'+'margin-left:'+current*-409+'px;'">
           <li v-for="item in gameImgUrl">
             <a href="#">
               <img :src="item">
@@ -60,7 +60,7 @@
   position: relative;
   ul.imgBox{
         height: 440px;
-        transition: all .1 ease;
+        transition: all 500ms;
         li{
           float: left;
           width: 408.672px;
