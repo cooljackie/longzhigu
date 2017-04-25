@@ -50,7 +50,34 @@
     </ul>
   </div>
 </template>
-
+<script >
+import $ from 'jquery'
+  export default{
+    methods:{
+        i() {
+          var e, i, l = $(window),
+          o = l.height(),
+          n = $(".ui-animEle"),
+          a = n.length;
+          return $.support.msie && 9 > parseInt($.support.version) ? (console.log("support,mise=" + $.support.msie), void n.removeClass("ui-animEle")) : (i = function() {
+              var t;
+              $.each(n,
+              function(e, i) {
+                  i._animed || (t = $(i), o > i.getBoundingClientRect().top && (t.removeClass("ui-animEle"), a--, i._animed = !0))
+              }),
+              a || (l.unbind("scroll", i), l.unbind("resize", e))
+          },
+          l.bind("scroll", i), e = function() {
+              o = l.height()
+          },
+          l.bind("resize", e), void i())
+      }
+    },
+    mounted () {
+      this.i()
+    }
+  }
+</script>
 <style lang='less'>
   .box{
     width: 1200px;
@@ -172,5 +199,11 @@
     transform: translate3d(0,0,0);
     opacity: 1;
 }
-
+  .ui-animEle {
+    -webkit-transform: translate3d(0,40px,0);
+    -moz-transform: translate3d(0,40px,0);
+    -ms-transform: translate3d(0,40px,0);
+    -o-transform: translate3d(0,40px,0);
+    opacity: 0;
+}
 </style>
